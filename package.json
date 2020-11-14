@@ -1,0 +1,28 @@
+{
+  "name": "@danielemeryau/dumb-node-rpc-shared-types",
+  "version": "0.0.0",
+  "description": "Shared data types used between the dumb client and server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielemery/dumb-node-rpc-shared-types.git"
+  },
+  "author": "Daniel Emery <danielremery@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielemery/dumb-node-rpc-shared-types/issues"
+  },
+  "homepage": "https://github.com/danielemery/dumb-node-rpc-shared-types#readme",
+  "devDependencies": {
+    "@danielemeryau/logger": "^1.0.0",
+    "@danielemeryau/prettier-config": "0.0.6",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "joi": "^17.3.0"
+  }
+}
